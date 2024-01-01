@@ -8,9 +8,9 @@ There are two forms of the `CASE` statement:
 
 ```sql
 SELECT column1, column2, 
-(CASE 
-    WHEN condition1 THEN result1
-    WHEN condition2 THEN result2
+(CASE input_expression
+    WHEN when_expression1 THEN result1
+    WHEN when_expression2 THEN result2
     ...
     ELSE result 
 END) 
